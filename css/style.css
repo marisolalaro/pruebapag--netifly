@@ -188,12 +188,12 @@ button {
 /*HOME*/
 #home {
     background-image: url('../img/portada.png');
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
     height: 800px;
-    opacity: 0.80;
-    
- 
+    opacity: 0.90;
+
+
 }
 
 .homecont {
@@ -217,14 +217,14 @@ button {
 }
 
 .hometitle {
-  text-align: left;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 109%;
-  margin-bottom: 1rem;
-  margin-left: 6rem;
-  margin-top: 4rem;
-  color: #C5EBC3;  
+    text-align: left;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 109%;
+    margin-bottom: 1rem;
+    margin-left: 6rem;
+    margin-top: 6.5rem;
+    color: #c6edff;
 }
 
 
@@ -350,20 +350,20 @@ button {
     text-align: center;
   }
 .box:nth-child(1) {
-    background-color: #b7c8b5; 
-  }
-  
-  .box:nth-child(2) {
-    background-color: #875c74; 
-  }
-  
-  .box:nth-child(3) {
-    background-color: #54414e; 
-  }
-  
-  .box:nth-child(4) {
-    background-color: #a790a5; 
-  }
+    background-color: #708d6d;
+}
+
+.box:nth-child(2) {
+    background-color: #875c74;
+}
+
+.box:nth-child(3) {
+    background-color: #54414e;
+}
+
+.box:nth-child(4) {
+    background-color: #54414e;
+}
   
 
 @media only screen and (max-width: 768px) {
