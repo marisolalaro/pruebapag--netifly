@@ -309,7 +309,7 @@ button {
 }
 
 .categorydata {
-    text-align: justify;
+    text-align:center;
     color: #232946;  
 
 }
@@ -907,16 +907,39 @@ button {
     justify-content:center;
     display: inline-flexbox;
 }
-
+.imagenes-s{    
+    width: 100%;
+    background-color: white;
+    justify-content:center;
+    display: inline-flexbox;
+}
+.imagenes-s img{
+   
+    
+    margin-left: 1rem;
+     height: 8rem;
+     padding: 10px;
+ }
 .imagenes img{
    
     
    margin-left: 1rem;
+    height: 5.2rem;
+    padding: 10px;
+}
+.imagenes .microsoft{
     height: 4rem;
     padding: 10px;
 }
 
+
 .imagenes img:hover
+{
+    transform: scale(1.1);
+   
+}
+
+.imagenes-s img:hover
 {
     transform: scale(1.1);
    
@@ -933,6 +956,17 @@ button {
     max-width: 24%;
     }
     }
+    @media (min-width: 420px) {
+        .imagenes-s img{
+        max-width: 48%;
+        }
+        }
+        
+        @media (min-width: 760px) {
+            .imagenes-s img {
+        max-width: 24%;
+        }
+        }
 
 /*FOOTER NUEVO AÑADIR*/
 
