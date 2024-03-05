@@ -227,6 +227,23 @@ button {
     color: #c6edff;
 }
 
+.botonem{
+    margin-top: 10px;
+}
+.button-in{
+    font-size: 1.8rem;
+    color: white;
+    background-color: rgb(55, 120, 240);
+    height: 4rem;
+    padding: 10px;
+    border-radius: 14px;
+
+}
+
+.button-in:hover{
+    background-color: #708d6d;
+    color: white;
+}
 
 @media screen and (max-width: 1200px) {
     #home {
