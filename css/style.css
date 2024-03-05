@@ -1000,7 +1000,7 @@ button {
 
 .footersocial {
     display: flex;
-    column-gap: .95rem;
+    column-gap: .60rem;
 }
 
 .footersocial-link {
