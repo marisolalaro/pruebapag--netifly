@@ -90,7 +90,7 @@ const sr = ScrollReveal({
 sr.reveal(`.home-swiper, .new-swiper, .newslc`)
 sr.reveal(`.categorydata, .footercontent, .btn`, {interval: 100})
 sr.reveal(`.aboutdata, .discountimg`, {origin: 'left'})
-sr.reveal(`.aboutimg, .discountdata, .hero_img, .etapas`, {origin: 'left'})
+sr.reveal(`.aboutimg, .discountdata, .hero_img, .etapas, .even`, {origin: 'left'})
 sr.reveal(`.boxes`,{origin: 'right'})
 
 /*preguntas freceuntes NUEVO AÑADIR */
