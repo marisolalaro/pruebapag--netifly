@@ -106,5 +106,20 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
   
-  
+  /*modal */
+
+document.addEventListener("DOMContentLoaded", function() {
+  abrirModal();
+});
+
+function abrirModal() {
+  var modal = document.getElementById("miModal");
+  modal.style.display = "block";
+}
+
+function cerrarModal() {
+  var modal = document.getElementById("miModal");
+  modal.style.display = "none";
+}
+
   
