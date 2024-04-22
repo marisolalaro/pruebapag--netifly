@@ -1382,3 +1382,33 @@ video {
   margin: 0 auto;
   /* Centra la imagen horizontalmente */
 }
+/*5 imagenes despues de la portada*/
+
+#imagenes-despues-portada {
+  padding: 50px 0;
+  background-color: #d4d8f0;
+}
+
+#imagenes-despues-portada .container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+#imagenes-despues-portada .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#imagenes-despues-portada .column {
+  flex: 1;
+
+}
+
+#imagenes-despues-portada img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
