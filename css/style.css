@@ -1392,24 +1392,20 @@ video {
 #imagenes-despues-portada .container {
   max-width: 1200px;
   margin: 0 auto;
-
 }
 
 #imagenes-despues-portada .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 #imagenes-despues-portada .column {
-  flex: 1;
-
+  flex-basis: calc(33.33% - 10px);
+  margin-bottom: 10px;
 }
 
-#imagenes-despues-portada img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  max-height: 500px;
+#imagenes-despues-portada .column:last-child:nth-last-child(-n+2) {
+  flex-basis: calc(33.33% - 10px);
 }
